@@ -7,7 +7,7 @@ title: Zaneyyy's blog
 subtitle: 'Keep learning'
 description: '今日随手撒下的种子，日后必定会长成参天大树'
 keywords:
-author: Zayne1014
+author: Zaneyyy
 language: en
 timezone: ''
 
@@ -102,5 +102,6 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Zayne1014/Zayne1014.github.io.git
+  repo: https://github.com/YeeZane/YeeZane.github.io.git
   branch: main
+  
