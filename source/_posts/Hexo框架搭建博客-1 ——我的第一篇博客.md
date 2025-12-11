@@ -1,7 +1,6 @@
 ---
 title: 我的第一篇博客——Hexo框架搭建博客-1
 date: 2025-12-07 15:34:40
-comments: true
 tag: 
   - Hexo框架搭建博客
 categories:
