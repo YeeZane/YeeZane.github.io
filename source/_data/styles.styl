@@ -1,0 +1,65 @@
+/* =======================================
+   1. 全局背景图
+   ======================================= */
+body {
+  background: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* =======================================
+   2. 核心透明化 (Gemini 布局强力版)
+   ======================================= */
+
+/* 【左上角】博客标题栏 */
+.site-brand-container {
+  background: rgba(34, 34, 34, 0.7) !important;
+}
+
+/* 【左侧下部】侧边栏 */
+.sidebar-inner {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 20px !important;
+}
+
+/* 【右侧】文章卡片 */
+.post-block {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 20px !important;
+}
+
+/* 【右侧】分页按钮 */
+.pagination {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 20px !important;
+  padding: 10px;
+}
+
+/* 【右侧】评论区 */
+.comments {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 20px !important;
+  padding: 20px;
+}
+
+/* =======================================
+   3. 细节美化
+   ======================================= */
+
+/* 隐藏顶部的黑色细线条 */
+.headband {
+  display: none;
+}
+
+/* 调整正文字体大小 */
+.post-body {
+  font-size: 15px;
+}
+
+/* 鼠标选中文字变成粉色 */
+::selection {
+  background: #ffc0cb;
+  color: #fff;
+}
